@@ -1,0 +1,89 @@
+
+# Project Title
+
+Admins
+id - int
+email - varchar
+password - varchar
+role - varchar
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+name - varchar
+username - varchar
+
+Users
+id - int
+email - varchar
+username- varchar
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+password - varchar
+
+Likes
+id - int
+post_id - int
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+user_id  - int
+
+Categories
+id - int
+category - varchar
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+
+Posts
+id - int
+category_id - int
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+slug - varchar
+post_body - text  longtext
+
+Comments
+id - int
+post_id - int
+comment - text
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+
+Newsletters
+email - varchar
+name - varchar
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+id - int
+
+Breaking news
+id - int
+title - text
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+post_id - int
+
+Visitors
+id - int
+ip_address - varchar
+device_model - varchar
+operating_system - varchar
+country region - varchar
+time_logon - timestamp
+time_logoff- timestamp
+
+Clicks
+id - int
+post_id - int
+created at - timestamp
+deleted at - timestamp
+updated at - timestamp
+
+
+
